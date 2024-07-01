@@ -23,8 +23,7 @@ class MobilBaru extends Mobil {
 
     @Override
     public void info() {
-       System.out.println("Mobil Baru: " + getMerek() + " " + getModel() + "
-(Garansi: " + garansi + ")");
+       System.out.println("Mobil Baru: " + getMerek() + " " + getModel() + "(Garansi: " + garansi + ")");
     }
     
     

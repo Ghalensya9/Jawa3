@@ -3,12 +3,16 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package Implementasi;
+package DataStorage;
 
 /**
  *
- * @author A-12
+ * @author A-1
  */
-class DataStorage {
+public interface DataStorage {
+
+    public void writeData(String data_stored_in_memory);
+
+    public String readData();
     
 }
